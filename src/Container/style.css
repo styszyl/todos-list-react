@@ -1,0 +1,13 @@
+.wrapper {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+@media(max-width: 767px) {
+
+    .wrapper {
+        margin: 20px;
+    }
+}

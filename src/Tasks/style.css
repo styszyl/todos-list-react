@@ -1,0 +1,67 @@
+.taskList {
+    background-color: white;
+    padding: 10px 0 10px;
+}
+
+.taskList__item {
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    word-break: break-word;
+    padding: 10px;
+    border-bottom: 2px solid rgba(180, 180, 180, 0.267);
+    margin: 0 20px;
+}
+
+.taskList__content {
+    font-weight: 500;
+    width: 100%;
+}
+
+.taskList__content--done {
+    text-decoration: line-through;
+}
+
+.taskList__checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.taskList__checkbox--green {
+    background-color: green;
+    color: green;
+}
+
+.taskList__checkbox--green:hover {
+    background: hsl(120, 100%, 35%);
+    color: hsl(120, 100%, 35%);
+}
+.taskList__checkbox--greenDone {
+    color: white;
+}
+.taskList__checkbox--greenDone:hover {
+    color: white;
+}
+
+.taskList__checkbox--deleteButton {
+    color: white;
+    background-color: red;
+}
+
+.taskList__checkbox--deleteButton:hover {
+    color: white;
+    background-color: hsl(0, 100%, 65%);
+}
+
+.taskList__ul {
+    padding: 0;
+}

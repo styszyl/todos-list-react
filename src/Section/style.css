@@ -1,0 +1,25 @@
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 10px solid rgba(204, 204, 204, 0.28);
+}
+
+.section__title {
+    font-weight: 600;
+    padding: 20px;
+    margin: 0;
+}
+
+.section__header {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 2px solid rgba(204, 204, 204, 0.28);
+    justify-content: space-between;
+}
+
+@media(max-width: 767px) {
+
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}

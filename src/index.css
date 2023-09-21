@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  background-color: rgba(204, 204, 204, 0.28);
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+

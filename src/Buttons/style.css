@@ -1,0 +1,37 @@
+.tasklistButtons {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: none;
+    border: none;
+    align-items: center;
+}
+
+.tasklistButton {
+    margin: 0 10px;
+    border:none;
+    background-color: white;
+    color:teal;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.tasklistButton:hover {
+    color:hsl(180, 100%, 35%);
+}
+
+.tasklistButton:disabled {
+    color:gray;
+}
+
+@media(max-width: 767px) {
+
+    .tasklistButtons {
+        margin: 10px 0 25px;
+        grid-template-columns: 1fr;
+    }
+    
+    .tasklistButton {
+        margin: 10px;
+    }
+
+}
