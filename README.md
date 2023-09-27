@@ -10,7 +10,7 @@ Just enter your task in the input field and then press the "Dodaj zadanie" butto
 
 https://styszyl.github.io/todos-list-react/
 
-![DEMO GIF](%PUBLIC_URL%/gif/demo.gif)
+![DEMO GIF](./public/gif/demo.gif)
 
 # Getting Started with Create React App
 
