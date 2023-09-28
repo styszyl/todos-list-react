@@ -1,4 +1,4 @@
-.tasklistButtons {
+.buttons__tasklistButtons {
     display: grid;
     grid-template-columns: auto auto;
     background: none;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.tasklistButton {
+.buttons__tasklistButton {
     margin: 0 10px;
     border:none;
     background-color: white;
@@ -15,22 +15,22 @@
     transition: 0.3s;
 }
 
-.tasklistButton:hover {
+.buttons__tasklistButton:hover {
     color:hsl(180, 100%, 35%);
 }
 
-.tasklistButton:disabled {
+.buttons__tasklistButton:disabled {
     color:gray;
 }
 
 @media(max-width: 767px) {
 
-    .tasklistButtons {
+    .buttons__tasklistButtons {
         margin: 10px 0 25px;
         grid-template-columns: 1fr;
     }
     
-    .tasklistButton {
+    .buttons__tasklistButton {
         margin: 10px;
     }
 
