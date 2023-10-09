@@ -62,6 +62,6 @@
     background-color: hsl(0, 100%, 65%);
 }
 
-.taskList__ul {
+.taskList__list {
     padding: 0;
 }
